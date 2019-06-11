@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Menu Event</name>
+    <events>
+        <include>Function Event</include>
+        <event-block sid="8205472968818835">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8446830434675523" type="System" />
+            </conditions>
+            <actions>
+                <action id="14" name="Log" sid="890414026366074" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;on game start&quot;</param>
+                </action>
+                <action id="0" name="Call function" sid="588342163736532" type="Function">
+                    <param id="0" name="Name">&quot;CheckTime&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="4820126706841621">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="6291699493753395" type="Audio">
+                            <param id="0" name="Tag">&quot;bg_music&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="8737423662635765" type="Audio">
+                            <param id="0" name="Audio file">bg_music</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;bg_music&quot;</param>
+                        </action>
+                        <action id="0" name="Call function" sid="5147129053836625" type="Function">
+                            <param id="0" name="Name">&quot;SetAudio&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="1069870805648906">
+            <conditions>
+                <condition id="10" name="On item missing" sid="4585568100364337" type="LocalStorage">
+                    <param id="0" name="Key">&quot;progress&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set item" sid="4000089622202718" type="LocalStorage">
+                    <param id="0" name="Key">&quot;progress&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7824111932672542">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3764942081956947" type="Touch">
+                    <param id="0" name="Object">ButtonMenu</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="917044147371872" type="ButtonMenu">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1165451226532629" type="System">
+                    <param id="0" name="Layout">Score Layout</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3723738157630425">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4831395396750459" type="Touch">
+                    <param id="0" name="Object">ButtonMenu</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="8101148080571583" type="ButtonMenu">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4774121890521325" type="System">
+                    <param id="0" name="Layout">HTP Layout</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="96352577565848">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1522631224702702" type="Touch">
+                    <param id="0" name="Object">ButtonMenu</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="6739895151618161" type="ButtonMenu">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set playback rate" sid="9765821840137634" type="Audio">
+                    <param id="0" name="Tag">&quot;bg_music&quot;</param>
+                    <param id="1" name="Playback rate">0</param>
+                </action>
+                <action id="33" name="Stop all" sid="9931043425983994" type="Audio" />
+                <action id="17" name="Execute Javascript" sid="632897994858271" type="Browser">
+                    <param id="0" name="Javascript">&quot;app.exitGame();&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7798441002877391">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2804350232154635" type="Touch">
+                    <param id="0" name="Object">ButtonMenu</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="3962357517374242" type="ButtonMenu">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="17" name="Execute Javascript" sid="5581599251918382" type="Browser">
+                    <param id="0" name="Javascript">&quot;app.fbshare();&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9247201859032902">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="1006883138573518" type="Keyboard">
+                    <param id="0" name="Key">81</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Clear storage" sid="3288118951008811" type="LocalStorage" />
+                <action id="-9" name="Set value" sid="25608036904347" type="System">
+                    <param id="0" name="Variable">Has_saved_star</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Clear" sid="5727267462393198" type="SavedStar" />
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="7064213300453923">
+            <conditions>
+                <condition id="3" name="On storage cleared" sid="543151462017312" type="LocalStorage" />
+            </conditions>
+            <actions>
+                <action id="14" name="Log" sid="1646444922560341" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;cleared&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>HTP Event</name>
+    <events>
+        <include>Function Event</include>
+        <event-block sid="801170295693668">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4201655215248417" type="Touch">
+                    <param id="0" name="Object">ButtonBack</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1509571650821208" type="System">
+                    <param id="0" name="Layout">Score Layout</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8730779924320957">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1540711555140101" type="Touch">
+                    <param id="0" name="Object">InputHTPNext</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="7858379299838825">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="9828846390778577" type="PageHTP">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="1941640646582947" type="PageHTP">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7353600614926648">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="2370974975027986" type="PageHTP">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="6831967584501796" type="PageHTP">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4706728356855003">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="2215428028821218" type="PageHTP">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="5344144717448181" type="PageHTP">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5742880609940958">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3384041876400804" type="Touch">
+                    <param id="0" name="Object">InputHTPPrevious</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="6499176389985376">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="5284570961365244" type="PageHTP">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="9039629471731732" type="PageHTP">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7138348659159676">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="7462787910889783" type="PageHTP">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="5347166562503542" type="PageHTP">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1714916929530632">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="3706495567246323" type="PageHTP">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="6464210155927528" type="PageHTP">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

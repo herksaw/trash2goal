@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">Loader Layout</layout>
+        <layout order="6">Game Layout</layout>
+        <event-sheet order="1">Menu Event</event-sheet>
+        <event-sheet active="1" order="2">Function Event</event-sheet>
+        <event-sheet order="3">Score Event</event-sheet>
+        <event-sheet order="4">Loader Event</event-sheet>
+        <event-sheet order="5">HTP Event</event-sheet>
+        <event-sheet order="7">Game Event</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1">
+        <family expanded="1" name="Garbages" />
+        <family expanded="0" name="Papers" />
+        <family expanded="0" name="TextsPaper" />
+        <family expanded="0" name="Objects" />
+        <family expanded="1" name="Texts" />
+        <family expanded="0" name="Scores" />
+        <family expanded="0" name="TextsScore" />
+        <family expanded="0" name="Boards" />
+        <family expanded="0" name="Intros" />
+        <family expanded="0" name="TextsIntro" />
+        <family expanded="0" name="Settings" />
+        <family expanded="1" name="Prompts" />
+        <family expanded="0" name="TextPrompts" />
+        <family expanded="0" name="TextPrompts2" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Lvl1_Waste/" />
+        <folder expanded="1" path="animation-folder/Bin/" />
+        <folder expanded="1" path="animation-folder/HalfPaperScore/" />
+        <folder expanded="1" path="animation-folder/HourGlass/" />
+        <folder expanded="1" path="animation-folder/Life/" />
+        <folder expanded="1" path="animation-folder/Background/" />
+        <folder expanded="1" path="animation-folder/ButtonPause/" />
+        <folder expanded="1" path="animation-folder/PaperNote/" />
+        <folder expanded="1" path="animation-folder/ButtonPaper/" />
+        <folder expanded="1" path="animation-folder/Shaker/" />
+        <folder expanded="1" path="animation-folder/Lvl2_Waste/" />
+        <folder expanded="1" path="animation-folder/Lvl3_Waste/" />
+        <folder expanded="1" path="animation-folder/Lvl4_Waste/" />
+        <folder expanded="1" path="animation-folder/Lvl5_Waste/" />
+        <folder expanded="1" path="animation-folder/Lvl6_Waste/" />
+        <folder expanded="1" path="animation-folder/ButtonMenu/" />
+        <folder expanded="1" path="animation-folder/ButtonMainSettings/" />
+        <folder expanded="1" path="animation-folder/BoardPaper/" />
+        <folder expanded="1" path="animation-folder/BoardLock/" />
+        <folder expanded="1" path="animation-folder/BoardNumber/" />
+        <folder expanded="1" path="animation-folder/BoardStar/" />
+        <folder expanded="1" path="animation-folder/ScoreTitle/" />
+        <folder expanded="1" path="animation-folder/ScorePaper/" />
+        <folder expanded="1" path="animation-folder/ScoreLeave/" />
+        <folder expanded="1" path="animation-folder/ScoreNote/" />
+        <folder expanded="1" path="animation-folder/ButtonScore/" />
+        <folder expanded="1" path="animation-folder/LifeBackground/" />
+        <folder expanded="1" path="animation-folder/LifeNew/" />
+        <folder expanded="1" path="animation-folder/ScoreStar/" />
+        <folder expanded="1" path="animation-folder/ScoreBackground/" />
+        <folder expanded="1" path="animation-folder/ScoreLife/" />
+        <folder expanded="1" path="animation-folder/PaperIntro/" />
+        <folder expanded="1" path="animation-folder/ButtonIntro/" />
+        <folder expanded="1" path="animation-folder/IntroCats/" />
+        <folder expanded="1" path="animation-folder/PaperSettings/" />
+        <folder expanded="1" path="animation-folder/ButtonSettings/" />
+        <folder expanded="1" path="animation-folder/MainBackground/" />
+        <folder expanded="1" path="animation-folder/MainDesigner/" />
+        <folder expanded="1" path="animation-folder/BoardBackground/" />
+        <folder expanded="1" path="animation-folder/PageAbout/" />
+        <folder expanded="1" path="animation-folder/ButtonBack/" />
+        <folder expanded="1" path="animation-folder/PageHTP/" />
+        <folder expanded="1" path="animation-folder/LoadingCats/" />
+        <folder expanded="1" path="animation-folder/Kitty/" />
+        <folder expanded="1" path="animation-folder/BoardPrompt/" />
+    </folders-expanded>
+</c2uistate>

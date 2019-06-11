@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Loader Event</name>
+    <events>
+        <include>Function Event</include>
+        <event-block sid="4501912762471726">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4716868541286625" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="5445346583320669" type="Function">
+                    <param id="0" name="Name">&quot;CheckStar&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="593640717553708" type="Function">
+                    <param id="0" name="Name">&quot;CheckAudio&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="5543391276600423" type="Function">
+                    <param id="0" name="Name">&quot;CheckProgress&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="5452487829010149">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8818109978701332" type="System">
+                            <param id="0" name="Variable">Current_time</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2590120602649343" type="System">
+                            <param id="0" name="Variable">Previous_time</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="7279347275819152" type="Function">
+                            <param id="0" name="Name">&quot;CheckTime&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="14" name="Log" sid="5075849422587511" type="Browser">
+                            <param id="0" name="Type">0</param>
+                            <param id="1" name="Message">&quot;first_run&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="1119099864596615">
+            <conditions>
+                <condition id="-25" name="On loader layout complete" sid="5232505406280461" type="System" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="654532960492296" type="System">
+                    <param id="0" name="Layout">Menu Layout</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1774555582349291">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="4903339220649418" type="System">
+                    <param id="0" name="Interval (seconds)">random(1, 3)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="4912569549386476" type="LoadingCats">
+                    <param id="0" name="Frame number">floor(random(0, 6))</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4789091851637616">
+            <conditions>
+                <condition id="10" name="On item missing" sid="2241256630057873" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level_1&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set item" sid="9694077312375364" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level_1&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6529577055339347">
+            <conditions>
+                <condition id="10" name="On item missing" sid="5164573845614708" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level_2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set item" sid="2912167600602356" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level_2&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5571487450162429">
+            <conditions>
+                <condition id="10" name="On item missing" sid="6803166502595568" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level_3&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set item" sid="4535252911151417" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level_3&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4905021382433957">
+            <conditions>
+                <condition id="10" name="On item missing" sid="5045512356708108" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level_4&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set item" sid="8290445930156307" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level_4&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1403148846348369">
+            <conditions>
+                <condition id="10" name="On item missing" sid="6917192837195624" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level_5&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set item" sid="1893770126724379" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level_5&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5263562346816714">
+            <conditions>
+                <condition id="10" name="On item missing" sid="2379106503902062" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level_6&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set item" sid="227830066731323" type="LocalStorage">
+                    <param id="0" name="Key">&quot;level_6&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3795639719735459">
+            <conditions>
+                <condition id="10" name="On item missing" sid="1958722709371729" type="LocalStorage">
+                    <param id="0" name="Key">&quot;music&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set item" sid="178895301627132" type="LocalStorage">
+                    <param id="0" name="Key">&quot;music&quot;</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="6461595238514595" type="System">
+                    <param id="0" name="Variable">Music</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4093474212941604">
+            <conditions>
+                <condition id="10" name="On item missing" sid="2048775168860424" type="LocalStorage">
+                    <param id="0" name="Key">&quot;sound&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set item" sid="4164888148298751" type="LocalStorage">
+                    <param id="0" name="Key">&quot;sound&quot;</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="1247250102661416" type="System">
+                    <param id="0" name="Variable">Sound</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3154659945329808">
+            <conditions>
+                <condition id="10" name="On item missing" sid="3837929053336883" type="LocalStorage">
+                    <param id="0" name="Key">&quot;progress&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set item" sid="4044624001491229" type="LocalStorage">
+                    <param id="0" name="Key">&quot;progress&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3338057350372265">
+            <conditions>
+                <condition id="0" name="On function" sid="3862928994758361" type="Function">
+                    <param id="0" name="Name">&quot;CheckProgress&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Check item exists" sid="5106395536701847" type="LocalStorage">
+                    <param id="0" name="Key">&quot;progress&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8627624554025812">
+            <conditions>
+                <condition id="9" name="On item exists" sid="2232423271142903" type="LocalStorage">
+                    <param id="0" name="Key">&quot;progress&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Get item" sid="4719971839404373" type="LocalStorage">
+                    <param id="0" name="Key">&quot;progress&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2517606966002446">
+            <conditions>
+                <condition id="1" name="On item get" sid="2978571816969018" type="LocalStorage">
+                    <param id="0" name="Key">&quot;progress&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8742711329815076" type="System">
+                    <param id="0" name="Variable">Current_progress</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,1165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Trash to Goal</name>
+    <description>Recylcling concept based game.</description>
+    <version>1.0.0.0</version>
+    <author>CS Soon</author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.cs.trash2goal</app-id>
+    <unique-id>2y8im5gc9uzsp</unique-id>
+    <saved-with-version>26900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Facebook" version="1">Facebook</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Rex.Rainbow" id="Rex_Date" version="1">Date</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Anchor" version="1">Anchor</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
+        <behavior author="lunarray" id="lunarray_LiteTween" version="1.700000048">LiteTween</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>400</width>
+        <height>600</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Loader Layout</first-layout>
+    <use-loader-layout>1</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Scale outer</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Percentage text</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Lvl1_Waste" sid="5208962597364546">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="10" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="5578271154993336" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level1\Lvl1Waste-01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level1\Lvl1Waste-02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level1\Lvl1Waste-03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level1\Lvl1Waste-04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level1\Lvl1Waste-05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level1\Lvl1Waste-06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level1\Lvl1Waste-07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level1\Lvl1Waste-08.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level1\Lvl1Waste-09.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level1\Lvl1Waste-10.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Bin" sid="5445883853853161">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="7728246719397199">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="5836061986686316" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\game\Landfill_bin_new.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\game\Compositing_bin.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503226" original-source="C:\Users\User\Pictures\projects\Trash to Goal\recyclebin_small.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HalfPaperScore" sid="6369318773048211">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="1131836529266956">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="1569593048034227" speed="0">
+                    <frame duration="1" hotspotX="0.503356" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\game\score_note.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HourGlass" sid="4228471565966608">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="518960301429767">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="465759556898932" speed="0">
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\game\hourglass.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Life" sid="2622705246087797">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="7846746431229607">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="5782196428923734" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.526316" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\game\life_left.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.526316" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\game\life_used.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextTimer" sid="8836020428775226">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="8502950333203593">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Background" sid="1220199505757575">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="8974757010013129" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\Backgrounds\Lv1_BG.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\Backgrounds\Lv2_BG.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\Backgrounds\Lvl3Background.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\Backgrounds\Lvl4Background.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\Backgrounds\Lvl5Background.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\Backgrounds\Lvl6Background.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\backgrounds2\background-sheet1_small.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\backgrounds2\background-sheet2_small.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonPause" sid="2976584436921216">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="4301650332943413">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="1002105727096775" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\game\pause_game.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="6866041469868575">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="ParticlesStar" sid="696712231262722">
+            <plugin id="Particles" />
+            <behaviors>
+                <behavior-type name="Timer" sid="1005924995643691">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\star2.png" />
+        </object-type>
+        <object-type name="Browser" sid="5181297987544104">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="PaperNote" sid="1674281640433841">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="6978658603979019" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\level_intro\Level_intro_paper_bg.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonPaper" sid="8633340898618512">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="9322706399671184" speed="0">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\exit_game_menu\continue.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\exit_game_menu\retry.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal\music_on_small.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal\sound_on_small.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\exit_game_menu\exit.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\exit_game_menu\score.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal\music_off_small.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal\sound_off_small.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextLevel" sid="5120908466392103">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Shaker" sid="9290884892100429">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Timer" sid="9258316183481992">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9985104382359383" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lvl2_Waste" sid="3787911390473945">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="18" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="215118019498462" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-08.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-09.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-13.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-14.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-15.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-16.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-17.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-18.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-19.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level2\Lvl2Waste-20.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lvl3_Waste" sid="2192101515817185">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="29" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="3627633725282605" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-08.png" />
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-09.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-13.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-14.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-15.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-16.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-17.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-18.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-19.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-20.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-21.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-22.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-23.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-24.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-25.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-26.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-27.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-28.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-29.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level3\Lvl3Waste-30.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lvl4_Waste" sid="5282725429375196">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="35" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="797571631218572" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-08.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-09.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-13.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-14.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-16.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-17.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-19.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-20.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503268" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-21.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-22.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-23.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-24.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-25.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-26.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-29.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-30.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-31.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-32.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-33.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-34.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-35.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-36.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-37.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-38.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-39.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level4\Lvl4Waste-40.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lvl5_Waste" sid="6214010583355814">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="46" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="3474376223738953" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-04.png" />
+                    <frame duration="1" hotspotX="0.503817" hotspotY="0.503817" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-08.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-09.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-13.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-14.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-15.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-16.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-17.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-18.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-19.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-20.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-21.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-22.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-23.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-24.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-25.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-26.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-27.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-28.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-29.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-30.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-32.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-33.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-34.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-35.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-36.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-37.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-38.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-39.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-40.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-41.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-42.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-43.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-44.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-46.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-48.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-49.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level5\Lvl5Waste-50.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lvl6_Waste" sid="4415039809694704">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="58" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="6830534328130901" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-08.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505495" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-09.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-13.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-14.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-15.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-16.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-17.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-19.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-20.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-21.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-22.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-23.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-24.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-25.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-26.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-27.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-28.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-29.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-30.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-31.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-32.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-33.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-34.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-35.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-36.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-37.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-38.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-39.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-40.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-41.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-42.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-43.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-44.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-45.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-46.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-47.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-48.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-49.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-50.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-51.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-52.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-53.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-54.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-55.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-57.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-58.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-59.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\changes\Waste\Level6\Lvl6Waste-60.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Function" sid="8653373342311439">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="ButtonMenu" sid="6568603175339067">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="3786654456177143" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\play.png" />
+                    <frame duration="1" hotspotX="0.502825" hotspotY="0.511628" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\how_to_play.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\back.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\connect.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonMainSettings" sid="3748084346654086">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="3124322505480013">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="9435851234871429" speed="0">
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.511111" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\leaderboard\button-settings.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BoardPaper" sid="9461770530742918">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="4420902479314555" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\level_lock_bg.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\level_unlock_bg.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BoardLock" sid="8710512525831041">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="1870620505890316" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506494" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\lock.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BoardNumber" sid="945068404240739">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="2527037022815782" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\one.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\two.png" />
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\three.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\four.png" />
+                    <frame duration="1" hotspotX="0.518519" hotspotY="0.511111" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\five.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\six.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BoardStar" sid="7706179304326034">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="7131420640702046" speed="0">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\star1_gray.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\star1.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.515152" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\star2_gray.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.515152" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\star2.png" />
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\star3_gray.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\star3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="WasteType" sid="1737732339482757">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="ScoreTitle" sid="3456800559348472">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="686283221403217" speed="0">
+                    <frame duration="1" hotspotX="0.501873" hotspotY="0.502618" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\level1_title.png" />
+                    <frame duration="1" hotspotX="0.501873" hotspotY="0.502618" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\level2_title.png" />
+                    <frame duration="1" hotspotX="0.501873" hotspotY="0.502618" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\level3_title.png" />
+                    <frame duration="1" hotspotX="0.501873" hotspotY="0.502591" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\level4_title.png" />
+                    <frame duration="1" hotspotX="0.501873" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\level5_title.png" />
+                    <frame duration="1" hotspotX="0.501873" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\level6_title.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ScorePaper" sid="5260242499569435">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="114988419600268" speed="0">
+                    <frame duration="1" hotspotX="0.501502" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\score_note_bg.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ScoreLeave" sid="7272458797664206">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="7104151524374777" speed="0">
+                    <frame duration="1" hotspotX="0.502183" hotspotY="0.507042" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\score_leave.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ScoreNote" sid="1303106098671204">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="6299611481660861" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level1_note.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level2_note.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level3_note.png" />
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level4_note.png" />
+                    <frame duration="1" hotspotX="0.501718" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level5_note.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level6_note.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonScore" sid="7988980497041008">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="8764422576059343" speed="0">
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.511628" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\home.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Users\User\Pictures\projects\Trash to Goal\retry_small.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\star.png" />
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.511628" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\facebook.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LifeBackground" sid="4144339594274394">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="890489880299001" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.513514" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\life_bg.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LifeNew" sid="9269541849587339">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="1277720580058243" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\newlife.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextLife" sid="3003724551991562">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextLifeTime" sid="7017495742376573">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextTotalScore" sid="6159212155104968">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ScoreStar" sid="5728467647592926">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="9696904967996978" speed="0">
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\star1_gray.png" />
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\star1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.508772" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\star2_gray.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.508772" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\star2.png" />
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\star3_gray.png" />
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\star3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ScoreBackground" sid="6077966988733954">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="5933288461239819" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\score\score_bg_new.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ScoreLife" sid="9479039671864217">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="8526322036249392" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.526316" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\game\life_left.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.526316" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\game\life_used.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LocalStorage" sid="5538124522186351">
+            <plugin id="LocalStorage" />
+        </object-type>
+        <object-type global="1" name="SavedStar" sid="2167703678256638">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Keyboard" sid="5368233860972627">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="PaperIntro" sid="8179195125644618">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="6526967684685625" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\level_intro\Level_intro_paper_bg.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonIntro" sid="4392076048646575">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="9085700433492482" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\level_intro\intro_play.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511628" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\level_intro\intro_back.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="IntroCats" sid="4560530363976758">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="2543493262224249" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\level_intro\level1_intro_belly.png" />
+                    <frame duration="1" hotspotX="0.506329" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\level_intro\level2_intro_milky.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\level_intro\level3_intro_fruitti.png" />
+                    <frame duration="1" hotspotX="0.506024" hotspotY="0.508197" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\level_intro\level4_intro_twinky.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.508475" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\level_intro\level5_intro_florie.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\level_intro\level6_intro_tiggy.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="IntroTextHi" sid="3729921498811603">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="IntroTextTarget" sid="9000880976409366">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="IntroTextLocation" sid="2480130358051028">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="IntroTextLevel" sid="8652157778891382">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="PaperSettings" sid="9455739854276484">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="5794076613345226" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\level_intro\Level_intro_paper_bg.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonSettings" sid="9366644617430287">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="9" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="583662304841865" speed="0">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal\music_on_small.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal\sound_on_small.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\settings\how_to_play.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\settings\about.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\settings\connect.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\settings\home.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\settings\back.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal\music_off_small.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Pictures\projects\Trash to Goal\sound_off_small.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="Date" sid="5861275273091182">
+            <plugin id="Rex_Date" />
+        </object-type>
+        <object-type name="MainBackground" sid="7121933629925328">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="6210890737617426" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\backgrounds2\mainbackground-sheet0_small.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MainDesigner" sid="9889816277027976">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="20255319573552">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="9748877406006764" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511111" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main_new\designer_new.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BoardBackground" sid="2409681923449954">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="768484717346537" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\leaderboard\score_bg_new.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PageAbout" sid="9948095254705285">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="8056446731940217" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\pageabout-sheet0_small.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ButtonBack" sid="1200826057845142">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="5166313708603804">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="8390845919980996" speed="0">
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.511111" original-source="C:\Users\User\Pictures\projects\Trash to Goal\changes\About + How To Play\button_modified.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PageHTP" sid="2345890782624859">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="3937567381025564">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="3985743589385672" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\HowToPlay\How-To-Play-01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\HowToPlay\How-To-Play-02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\HowToPlay\How-To-Play-03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\HowToPlay\How-To-Play-04.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="InputHTPNext" sid="2187609934668712">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="InputHTPPrevious" sid="994903378433136">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="LoadingCats" sid="955833059210601">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="1279143635903372" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\interface_design\8. Loading Page - Belly.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\interface_design\8. Loading Page - Florie.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\interface_design\8. Loading Page - Fruity.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\interface_design\8. Loading Page - Milky.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\interface_design\8. Loading Page - Tiggy.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal\interface_design\8. Loading Page - Twinky.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AJAX" sid="5668063605409999">
+            <plugin id="AJAX" />
+        </object-type>
+        <object-type global="1" name="WasteHistory" sid="5891923598418289">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Audio" sid="8417844454320589">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Kitty" sid="9386331885233124">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Invisible" sid="9211808497608976">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="5" loop="0" name="BellyHappy" pingpong="0" repeatcount="0" repeatto="0" sid="7284423980362777" speed="0">
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.506494" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_1\belly_happy\_Group_ copy 4.png" />
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.506494" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_1\belly_happy\_Group_ copy 3.png" />
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.506494" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_1\belly_happy\_Group_ copy 2.png" />
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_1\belly_happy\_Group_ copy.png" />
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_1\belly_happy\_Group_.png" />
+                </animation>
+                <animation framecount="5" loop="0" name="BellySad" pingpong="0" repeatcount="0" repeatto="0" sid="5679848609324453" speed="0">
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.506494" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_1\belly_sad\_Group_ copy 4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506494" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_1\belly_sad\_Group_ copy 3.png" />
+                    <frame duration="1" hotspotX="0.507246" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_1\belly_sad\_Group_ copy 2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_1\belly_sad\_Group_ copy.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_1\belly_sad\_Group_.png" />
+                </animation>
+                <animation framecount="5" loop="0" name="MilkyHappy" pingpong="0" repeatcount="0" repeatto="0" sid="9668809461632231" speed="0">
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.507246" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_2\milky_happy\Layer 1.png" />
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.507042" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_2\milky_happy\Layer 2.png" />
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.507042" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_2\milky_happy\Layer 3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507042" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_2\milky_happy\Layer 4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507042" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_2\milky_happy\Layer 5.png" />
+                </animation>
+                <animation framecount="5" loop="0" name="MilkySad" pingpong="0" repeatcount="0" repeatto="0" sid="9189705045703852" speed="0">
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.507246" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_2\milky_sad\Layer 1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507246" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_2\milky_sad\Layer 2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507246" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_2\milky_sad\Layer 3.png" />
+                    <frame duration="1" hotspotX="0.506849" hotspotY="0.507246" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_2\milky_sad\Layer 4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507246" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_2\milky_sad\Layer 5.png" />
+                </animation>
+                <animation framecount="5" loop="0" name="FruttiHappy" pingpong="0" repeatcount="0" repeatto="0" sid="6181816956065815" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_3\frutti_happy\Layer 1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507463" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_3\frutti_happy\Layer 2.png" />
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.507246" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_3\frutti_happy\Layer 3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_3\frutti_happy\Layer 4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507042" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_3\frutti_happy\Layer 5.png" />
+                </animation>
+                <animation framecount="5" loop="0" name="FruttiSad" pingpong="0" repeatcount="0" repeatto="0" sid="52653810615531" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_3\frutti_sad\Layer 1.png" />
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.507692" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_3\frutti_sad\Layer 2.png" />
+                    <frame duration="1" hotspotX="0.507246" hotspotY="0.508197" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_3\frutti_sad\Layer 3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.508197" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_3\frutti_sad\Layer 4.png" />
+                    <frame duration="1" hotspotX="0.507246" hotspotY="0.508197" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_3\frutti_sad\Layer 5.png" />
+                </animation>
+                <animation framecount="5" loop="0" name="TwinkyHappy" pingpong="0" repeatcount="0" repeatto="0" sid="4411571382829955" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507692" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_4\twinky_happy\Layer 1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_4\twinky_happy\Layer 2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_4\twinky_happy\Layer 3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_4\twinky_happy\Layer 4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507937" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_4\twinky_happy\Layer 5.png" />
+                </animation>
+                <animation framecount="4" loop="0" name="TwinkySad" pingpong="0" repeatcount="0" repeatto="0" sid="2176032251024657" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507692" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_4\twinky_sad\Layer 1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507692" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_4\twinky_sad\Layer 2.png" />
+                    <frame duration="1" hotspotX="0.507463" hotspotY="0.507692" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_4\twinky_sad\Layer 3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507692" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_4\twinky_sad\Layer 4.png" />
+                </animation>
+                <animation framecount="5" loop="0" name="FlorieHappy" pingpong="0" repeatcount="0" repeatto="0" sid="772013068712911" speed="0">
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.507692" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_5\florie_happy\Layer 1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_5\florie_happy\Layer 2.png" />
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_5\florie_happy\Layer 3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_5\florie_happy\Layer 4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_5\florie_happy\Layer 5.png" />
+                </animation>
+                <animation framecount="4" loop="0" name="FlorieSad" pingpong="0" repeatcount="0" repeatto="0" sid="9917972371745046" speed="0">
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.507692" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_5\florie_sad\Layer 5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_5\florie_sad\Layer 4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_5\florie_sad\Layer 3.png" />
+                    <frame duration="1" hotspotX="0.506329" hotspotY="0.507463" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_5\florie_sad\Layer 2.png" />
+                </animation>
+                <animation framecount="4" loop="0" name="TiggyHappy" pingpong="0" repeatcount="0" repeatto="0" sid="4270909283681072" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_6\tiggy_happy\Layer 1.png" />
+                    <frame duration="1" hotspotX="0.508772" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_6\tiggy_happy\Layer 2.png" />
+                    <frame duration="1" hotspotX="0.508475" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_6\tiggy_happy\Layer 3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507246" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_6\tiggy_happy\Layer 4.png" />
+                </animation>
+                <animation framecount="5" loop="0" name="TiggySad" pingpong="0" repeatcount="0" repeatto="0" sid="9248544240924597" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_6\tiggy_sad\Layer 1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_6\tiggy_sad\Layer 2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_6\tiggy_sad\Layer 3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_6\tiggy_sad\Layer 4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\level_6\tiggy_sad\Layer 5.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Facebook" sid="5902410842303067">
+            <plugin id="Facebook" />
+        </object-type>
+        <object-type name="TextPrompt" sid="3679234269493116">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Blinking" sid="2507216905845394">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="BoardPrompt" sid="8907555953745575">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="7209151577923823" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Pictures\projects\Trash to Goal Modified\interface_design\main\level_unlock_bg.png" />
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.502924" original-source="C:\Users\User\Pictures\projects\Trash to Goal\level_unlock_bg.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="Garbages" plugin-id="Sprite" sid="7682957276265096">
+            <members>
+                <member>Lvl1_Waste</member>
+                <member>Lvl2_Waste</member>
+                <member>Lvl3_Waste</member>
+                <member>Lvl4_Waste</member>
+                <member>Lvl5_Waste</member>
+                <member>Lvl6_Waste</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="is_falling" sid="3577861245016396" type="number" />
+                <instance-variable name="is_enabled" sid="5072780375581055" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade" sid="2543695217102984">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="Papers" plugin-id="Sprite" sid="400427381223401">
+            <members>
+                <member>ButtonPaper</member>
+                <member>PaperNote</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Invisible" sid="1522271115648726">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="TextsPaper" plugin-id="Text" sid="7943794642714671">
+            <members>
+                <member>TextLevel</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Invisible" sid="9329943524233491">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="Objects" plugin-id="Sprite" sid="3012932316725537">
+            <members>
+                <member>Bin</member>
+                <member>Kitty</member>
+                <member>Lvl1_Waste</member>
+                <member>Lvl2_Waste</member>
+                <member>Lvl3_Waste</member>
+                <member>Lvl4_Waste</member>
+                <member>Lvl5_Waste</member>
+                <member>Lvl6_Waste</member>
+            </members>
+        </family>
+        <family name="Texts" plugin-id="Text" sid="1245764374375014">
+            <members>
+                <member>TextLevel</member>
+                <member>TextLife</member>
+                <member>TextLifeTime</member>
+                <member>TextPrompt</member>
+                <member>TextTimer</member>
+                <member>TextTotalScore</member>
+            </members>
+        </family>
+        <family name="Scores" plugin-id="Sprite" sid="6360288424413524">
+            <members>
+                <member>ButtonScore</member>
+                <member>LifeBackground</member>
+                <member>LifeNew</member>
+                <member>ScoreBackground</member>
+                <member>ScoreLeave</member>
+                <member>ScoreLife</member>
+                <member>ScoreNote</member>
+                <member>ScorePaper</member>
+                <member>ScoreStar</member>
+                <member>ScoreTitle</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Invisible" sid="9326132968046278">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="TextsScore" plugin-id="Text" sid="6228004961285369">
+            <members>
+                <member>TextLife</member>
+                <member>TextLifeTime</member>
+                <member>TextTotalScore</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Invisible" sid="3243519331899247">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="Boards" plugin-id="Sprite" sid="2863770980403565">
+            <members>
+                <member>BoardLock</member>
+                <member>BoardNumber</member>
+                <member>BoardPaper</member>
+                <member>BoardStar</member>
+            </members>
+        </family>
+        <family name="Intros" plugin-id="Sprite" sid="6074349844054213">
+            <members>
+                <member>ButtonIntro</member>
+                <member>IntroCats</member>
+                <member>PaperIntro</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Invisible" sid="7500834559759097">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="TextsIntro" plugin-id="Text" sid="701596522377271">
+            <members>
+                <member>IntroTextHi</member>
+                <member>IntroTextLevel</member>
+                <member>IntroTextLocation</member>
+                <member>IntroTextTarget</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Invisible" sid="5989407142674772">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="Settings" plugin-id="Sprite" sid="5938360588747709">
+            <members>
+                <member>ButtonSettings</member>
+                <member>PaperSettings</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Invisible" sid="4233859775486634">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="Prompts" plugin-id="Sprite" sid="9869113220926752">
+            <members>
+                <member>BoardPrompt</member>
+                <member>LifeNew</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Prompt" sid="5297388851933157">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="TextPrompts" plugin-id="Text" sid="5306358349798729">
+            <members>
+                <member>TextLife</member>
+                <member>TextLifeTime</member>
+                <member>TextPrompt</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Prompt" sid="3560518268986713">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="3011508997576352">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="TextPrompts2" plugin-id="Text" sid="7970069822789507">
+            <members>
+                <member>IntroTextHi</member>
+                <member>IntroTextLevel</member>
+                <member>IntroTextLocation</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Prompt" sid="1261608816100678">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Game Layout.xml</layout>
+        <layout>Menu Layout.xml</layout>
+        <layout>Score Layout.xml</layout>
+        <layout>About Layout.xml</layout>
+        <layout>HTP Layout.xml</layout>
+        <layout>Loader Layout.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Game Event.xml</event-sheet>
+        <event-sheet>Function Event.xml</event-sheet>
+        <event-sheet>Menu Event.xml</event-sheet>
+        <event-sheet>Score Event.xml</event-sheet>
+        <event-sheet>About Event.xml</event-sheet>
+        <event-sheet>HTP Event.xml</event-sheet>
+        <event-sheet>Loader Event.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="12">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Browser" uid="14" />
+        <global-instance type="Function" uid="28" />
+        <global-instance type="LocalStorage" uid="93" />
+        <global-instance type="Keyboard" uid="95" />
+        <global-instance type="AJAX" uid="128" />
+        <global-instance type="Audio" uid="130">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Facebook" uid="115">
+            <properties>
+                <app-id>793175057466726</app-id>
+                <app-secret>b1e5a43effcdb5935a46066570b2e0a7</app-secret>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="correct_answer.m4a" />
+        <file name="correct_answer.ogg" />
+        <file name="normal_score_page_appear.m4a" />
+        <file name="normal_score_page_appear.ogg" />
+        <file name="unlock_new_level.m4a" />
+        <file name="unlock_new_level.ogg" />
+        <file name="wrong_answer.m4a" />
+        <file name="wrong_answer.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="bg_music.m4a" />
+        <file name="bg_music.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file name="KristenITC-Regular.eot" />
+        <file name="KristenITC-Regular.svg" />
+        <file name="KristenITC-Regular.ttf" />
+        <file name="KristenITC-Regular.woff" />
+        <file name="KristenITC-Regular.css" />
+    </files-folder>
+</c2project>
